@@ -54,7 +54,7 @@ const Cart = (props) => {
     </div>
   );
   const submitOrderHandler = (userData) => {
-    fetch("https://react-meals-a-default-rtdb.firebaseio.com/order.json", {
+    fetch("https://newreactmeal-default-rtdb.firebaseio.com/order.json", {
       method: "POST",
       body: JSON.stringify({
         user: userData,
